@@ -23,4 +23,4 @@
 
 需要权限：
 - 启用死亡数、生命值、经验显示
->/function minecraft:displayerdata
+`/function minecraft:displayerdata`
