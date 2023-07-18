@@ -22,4 +22,10 @@
 ## 命令列表
 
 需要权限：
-- 启用死亡数、生命值、经验显示`/function minecraft:displayerdata`
+- 启用死亡数、生命值、经验显示 `/function minecraft:displayerdata`
+- 禁用死亡数、生命值、经验显示 `/function minecraft:redisplayerdata`
+
+不需权限：
+- 模式切换：旁观 `/trigger spectator`
+- 模式切换：生存 `/trigger survival`
+- 快捷功能：自杀 `/trigger kill`
