@@ -41,8 +41,8 @@
 
 1. 模式切换：旁观 `/trigger spectator`
 1. 模式切换：生存 `/trigger survival`
-1. 快捷功能：自杀（双重确认） `/trigger kill`
-1. 快捷功能：清除物品栏（双重确认） `/trigger clear`
+1. 快捷功能：自杀（二次确认） `/trigger kill`
+1. 快捷功能：清除物品栏（二次确认） `/trigger clear`
 1. 快捷功能：玩家坐标广播 `/trigger broadcast`
 
 ## 其他命令
