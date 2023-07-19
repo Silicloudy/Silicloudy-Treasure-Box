@@ -7,25 +7,28 @@
 向下兼容：10-14【游戏版本：低至1.19（22w11a）】
 *低于「向下兼容」的版本未经测试，该数据包可能会无法工作*
 
-## 功能
+## 功能及其命令
 
-添加了：
-- 死亡数显示（右侧计分板）
-- 生命值显示（Tab栏）
-- 经验显示（玩家名下方）
+需要权限等级≥2：
+1. 玩家数据追踪显示（包含下列2.3.4.功能） `/function minecraft:display_playerdata`
+   禁用：`/function minecraft:remove_display_playerdata`
+2. 死亡数显示（右侧计分板） `/function minecraft:display_playerdata_deaths`
+   禁用：`/function minecraft:remove_display_playerdata_deaths`
+3. 生命值显示（Tab栏） `/function minecraft:display_playerdata_health`
+   禁用：`/function minecraft:remove_display_playerdata_health`
+4. 经验显示（玩家名下方）`/function minecraft:display_playerdata_xp`
+   禁用：`/function minecraft:remove_display_playerdata_xp`
+5. 启用下文`无需权限等级`命令 `function minecraft:trigger`
+   禁用：`/function minecraft:remove_trigger`
 
-同时，为无权限（权限等级为0）的玩家提供了以下功能：
-- 模式切换：旁观
-- 模式切换：生存
-- 快捷功能：自杀（双重确认）
+无需权限等级（需要权限等级≥0）：
+1. 模式切换：旁观 `/trigger spectator`
+2. 模式切换：生存 `/trigger survival`
+3. 快捷功能：自杀（双重确认） `/trigger kill`
+4. 快捷功能：清除物品栏（双重确认） `/trigger clear`
+5. 快捷功能：玩家坐标广播 `/trigger broadcast`
 
-## 命令列表
+## 其他命令
 
-需要权限：
-- 启用死亡数、生命值、经验显示 `/function minecraft:displayerdata`
-- 禁用死亡数、生命值、经验显示 `/function minecraft:redisplayerdata`
-
-不需权限：
-- 模式切换：旁观 `/trigger spectator`
-- 模式切换：生存 `/trigger survival`
-- 快捷功能：自杀 `/trigger kill`
+1. 显示数据包信息 `/function minecraft:info`
+2. ？？？ `/function minecraft:tips`
