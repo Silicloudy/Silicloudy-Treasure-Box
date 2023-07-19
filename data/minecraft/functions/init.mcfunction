@@ -1,0 +1,1 @@
+schedule function minecraft:info 1s
