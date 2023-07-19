@@ -10,15 +10,16 @@
 ## 功能及其命令
 
 需要权限等级≥2：
-1. 玩家数据追踪显示（包含下列2.3.4.功能） `/function minecraft:display_playerdata`\n
+1. 玩家数据追踪显示（包含下列2.3.4.功能） `/function minecraft:display_playerdata`
+
    禁用：`/function minecraft:remove_display_playerdata`
-2. 死亡数显示（右侧计分板） `/function minecraft:display_playerdata_deaths`
+3. 死亡数显示（右侧计分板） `/function minecraft:display_playerdata_deaths`
    禁用：`/function minecraft:remove_display_playerdata_deaths`
-3. 生命值显示（Tab栏） `/function minecraft:display_playerdata_health`
+4. 生命值显示（Tab栏） `/function minecraft:display_playerdata_health`
    禁用：`/function minecraft:remove_display_playerdata_health`
-4. 经验显示（玩家名下方）`/function minecraft:display_playerdata_xp`
+5. 经验显示（玩家名下方）`/function minecraft:display_playerdata_xp`
    禁用：`/function minecraft:remove_display_playerdata_xp`
-5. 启用下文`无需权限等级`命令 `function minecraft:trigger`
+6. 启用下文`无需权限等级`命令 `function minecraft:trigger`
    禁用：`/function minecraft:remove_trigger`
 
 无需权限等级（需要权限等级≥0）：
