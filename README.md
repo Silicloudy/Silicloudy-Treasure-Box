@@ -10,7 +10,7 @@
 ## 功能及其命令
 
 需要权限等级≥2：
-1. 玩家数据追踪显示（包含下列2.3.4.功能） `/function minecraft:display_playerdata`
+1. 玩家数据追踪显示（包含下列2.3.4.功能） `/function minecraft:display_playerdata`\n
    禁用：`/function minecraft:remove_display_playerdata`
 2. 死亡数显示（右侧计分板） `/function minecraft:display_playerdata_deaths`
    禁用：`/function minecraft:remove_display_playerdata_deaths`
