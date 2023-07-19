@@ -22,17 +22,17 @@
 1. 经验显示（玩家名下方）`/function minecraft:display_playerdata_xp`
 
    禁用：`/function minecraft:remove_display_playerdata_xp`
-1. 启用下文`无需权限等级`命令 `function minecraft:trigger`
+1. 启用下文**无需权限等级**命令 `/function minecraft:trigger`
 
    禁用：`/function minecraft:remove_trigger`
 
 **无需权限等级（需要权限等级≥0）：**
-*此列命令需要先使用命令`function minecraft:trigger`启用*
+*此列命令需要先使用命令`/function minecraft:trigger`启用*
 1. 模式切换：旁观 `/trigger spectator`
-2. 模式切换：生存 `/trigger survival`
-3. 快捷功能：自杀（双重确认） `/trigger kill`
-4. 快捷功能：清除物品栏（双重确认） `/trigger clear`
-5. 快捷功能：玩家坐标广播 `/trigger broadcast`
+1. 模式切换：生存 `/trigger survival`
+1. 快捷功能：自杀（双重确认） `/trigger kill`
+1. 快捷功能：清除物品栏（双重确认） `/trigger clear`
+1. 快捷功能：玩家坐标广播 `/trigger broadcast`
 
 ## 其他命令
 
