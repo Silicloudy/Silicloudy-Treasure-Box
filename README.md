@@ -9,7 +9,7 @@
 
 ## 功能及其命令
 
-需要权限等级≥2：
+**需要权限等级≥2：**
 1. 玩家数据追踪显示（包含下列2.3.4.功能） `/function minecraft:display_playerdata`
 
    禁用：`/function minecraft:remove_display_playerdata`
@@ -26,7 +26,8 @@
 
    禁用：`/function minecraft:remove_trigger`
 
-无需权限等级（需要权限等级≥0）：
+**无需权限等级（需要权限等级≥0）：**
+*此列命令需要先使用命令`function minecraft:trigger`启用*
 1. 模式切换：旁观 `/trigger spectator`
 2. 模式切换：生存 `/trigger survival`
 3. 快捷功能：自杀（双重确认） `/trigger kill`
