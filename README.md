@@ -27,7 +27,7 @@
 
    禁用：`/function minecraft:remove_display_playerdata_health`
 
-1. 经验显示（玩家名下方）`/function minecraft:display_playerdata_xp`
+1. 经验等级显示（玩家名下方）`/function minecraft:display_playerdata_xp`
 
    禁用：`/function minecraft:remove_display_playerdata_xp`
 
@@ -37,7 +37,7 @@
 
 **无需权限等级（需要权限等级≥0）：**
 
-*此列命令需要先使用命令`/function minecraft:trigger`启用*
+*此列命令需要先使用`/function minecraft:trigger`启用*
 
 1. 模式切换：旁观 `/trigger spectator`
 1. 模式切换：生存 `/trigger survival`
