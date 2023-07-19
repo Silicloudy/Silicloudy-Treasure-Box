@@ -6,4 +6,4 @@ scoreboard objectives add clear trigger {"text":"快捷功能：清除物品栏"
 scoreboard objectives add broadcast trigger {"text":"快捷功能：位置广播","color":"white","italic":true}
 scoreboard players set 1 broadcast 1
 
-scoreboard objectives add player_pos dummy {"text":"快捷功能：位置广播","color":"white","italic":true}
+scoreboard objectives add player_pos dummy {"text":"临时计分板：玩家位置","color":"gray","italic":true}
