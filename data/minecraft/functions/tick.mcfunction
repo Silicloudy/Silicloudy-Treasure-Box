@@ -41,10 +41,10 @@ scoreboard players set @a[scores={clear=3..}] clear 0
 
 ## [快捷功能：位置广播]
 # 坐标记录
-execute if score @p[scores={broadcast=1..}] broadcast = 1 broadcast store result score x player_pos run data get entity @p[scores={broadcast=1..}] Pos[0]
-execute if score @p[scores={broadcast=1..}] broadcast = 1 broadcast store result score y player_pos run data get entity @p[scores={broadcast=1..}] Pos[1]
-execute if score @p[scores={broadcast=1..}] broadcast = 1 broadcast store result score z player_pos run data get entity @p[scores={broadcast=1..}] Pos[2]
+execute if score @p[scores={broadcast=1}] broadcast = 1 broadcast store result score x player_pos run data get entity @p[scores={broadcast=1}] Pos[0]
+execute if score @p[scores={broadcast=1}] broadcast = 1 broadcast store result score y player_pos run data get entity @p[scores={broadcast=1}] Pos[1]
+execute if score @p[scores={broadcast=1}] broadcast = 1 broadcast store result score z player_pos run data get entity @p[scores={broadcast=1}] Pos[2]
 # 信息提示
-execute if score @p[scores={broadcast=1..}] broadcast = 1 broadcast run tellraw @a [{"text":"玩家位置广播：x=","extra":[{"score":{"objective":"player_pos","name":"x"}}],"color":"green"},{"text":" y=","extra":[{"score":{"objective":"player_pos","name":"y"}}]},{"text":" z=","extra":[{"score":{"objective":"player_pos","name":"z"}}]}]
+execute if score @p[scores={broadcast=1}] broadcast = 1 broadcast run tellraw @a [{"translate":"玩家%s广播了自己的位置：","with":[{"selector":"@p[scores={broadcast=1}]","color":"yellow"}],"color":"green"},{"text":"x=","extra":[{"score":{"objective":"player_pos","name":"x"}}]},{"text":" y=","extra":[{"score":{"objective":"player_pos","name":"y"}}]},{"text":" z=","extra":[{"score":{"objective":"player_pos","name":"z"}}]}]
 # 重置计数
-scoreboard players set @a[scores={broadcast=1..}] broadcast 0
+scoreboard players set @a[scores={broadcast=1}] broadcast 0
