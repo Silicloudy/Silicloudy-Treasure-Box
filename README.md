@@ -39,13 +39,11 @@
 
 *此列命令需要先使用`/function minecraft:trigger`启用*
 
-1. 模式切换：旁观 `/trigger spectator`
-1. 模式切换：生存 `/trigger survival`
+1. 快捷功能：灵魂出窍（多人游戏可能有bug）`/trigger free_camera`
 1. 快捷功能：自杀（二次确认） `/trigger kill`
 1. 快捷功能：清除物品栏（二次确认） `/trigger clear`
 1. 快捷功能：玩家坐标广播 `/trigger broadcast`
 
 ## 其他命令
 
-1. 显示数据包信息 `/function minecraft:info`
-2. ？？？ `/function minecraft:tips`
+显示数据包信息 `/function minecraft:info`
