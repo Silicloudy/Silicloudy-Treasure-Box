@@ -20,7 +20,11 @@
 
     `/function minecraft:dis_playerdata`
     
-    禁用：`/function minecraft:redis_playerdata`
+    禁用全部：`/function minecraft:redis_playerdata_all`
+   
+    禁用单项：`/function minecraft:redis_playerdata {objective:<计分板名>}`
+   
+    ·<计分板名>：`Deaths`（玩家死亡数）；`Health`（玩家生命值）；`XP`（玩家经验等级）
 
 1. 启用下文**无需权限等级**命令 `/function minecraft:trigger`
 
