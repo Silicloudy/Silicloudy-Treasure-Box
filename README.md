@@ -4,6 +4,9 @@
 
 主要添加了多人游戏相关数据显示，同时为解决多人游戏权限问题，添加了任何人都可使用的部分命令。
 
+## 下载
+见Releases页面
+
 ## 版本信息
 数据包版本：48【游戏版本：1.21（24w21a及以上）】
 *数据包在低于24w21a的版本无法工作*
@@ -27,6 +30,7 @@
 *此列命令需要先使用`/function minecraft:trigger`启用*
 
 1. 快捷功能：灵魂出窍（多人游戏可能有bug）`/trigger free_camera`
+1. 快捷功能：坐标查询 `/trigger pos_query`
 1. 快捷功能：玩家坐标广播 `/trigger broadcast`
 1. 快捷功能：自杀（二次确认） `/trigger kill`
 1. 快捷功能：清除物品栏（二次确认） `/trigger clear`
