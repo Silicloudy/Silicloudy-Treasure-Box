@@ -1,4 +1,4 @@
-# Silicloudy的百宝箱
+# 矽纭的百宝箱
 
 这是一个为**Minecraft Java版多人游戏**编写的数据包。
 
@@ -30,8 +30,8 @@
 *此列命令需要先使用`/function minecraft:trigger`启用*
 
 1. 快捷功能：灵魂出窍（多人游戏可能有bug）`/trigger free_camera`
-1. 快捷功能：坐标查询 `/trigger pos_query`
-1. 快捷功能：玩家坐标广播 `/trigger broadcast`
+1. 快捷功能：玩家自身当前坐标查询 `/trigger pos_query`
+1. 快捷功能：玩家自身当前坐标广播 `/trigger broadcast`
 1. 快捷功能：自杀（二次确认） `/trigger kill`
 1. 快捷功能：清除物品栏（二次确认） `/trigger clear`
 
