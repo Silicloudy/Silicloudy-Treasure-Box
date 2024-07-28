@@ -30,9 +30,9 @@
 
     禁用：`/function minecraft:remove_trigger`
 
-**无需权限等级（需要权限等级≥0）：**
+**无需权限等级（权限等级≥0）：**
 
-*此列命令需要先使用`/function minecraft:trigger`启用*
+*此列命令需要先使用`/function minecraft:trigger`（见上文）启用*
 
 1. 快捷功能：灵魂出窍（多人游戏可能有bug）`/trigger free_camera`
 1. 快捷功能：玩家自身当前坐标查询 `/trigger pos_query`
@@ -40,6 +40,6 @@
 1. 快捷功能：自杀（二次确认） `/trigger kill`
 1. 快捷功能：清除物品栏（二次确认） `/trigger clear`
 
-## 其他命令
+**其他命令：**
 
 显示数据包信息 `/function minecraft:info`
